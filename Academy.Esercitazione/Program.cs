@@ -10,6 +10,7 @@ namespace Academy.Esercitazione
     {
         static void Main(string[] args)
         {
+            //esercitazione
             //TestStampaProdotto();
             //Testnegozio();
            //TestOfferte();
