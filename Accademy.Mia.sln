@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accademy.Lambda", "Accademy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academy.DBTest", "Academy.DBTest\Academy.DBTest.csproj", "{1DCB2748-ED69-4E44-87E1-E0DDF3019F83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academy.Esercitazione", "Academy.Esercitazione\Academy.Esercitazione.csproj", "{6B8A2F91-6A74-4163-BFC9-F49C597FD76A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{1DCB2748-ED69-4E44-87E1-E0DDF3019F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DCB2748-ED69-4E44-87E1-E0DDF3019F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DCB2748-ED69-4E44-87E1-E0DDF3019F83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B8A2F91-6A74-4163-BFC9-F49C597FD76A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B8A2F91-6A74-4163-BFC9-F49C597FD76A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B8A2F91-6A74-4163-BFC9-F49C597FD76A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B8A2F91-6A74-4163-BFC9-F49C597FD76A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

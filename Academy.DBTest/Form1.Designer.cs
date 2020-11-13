@@ -41,6 +41,7 @@
             this.btn_Clienti.TabIndex = 0;
             this.btn_Clienti.Text = "Clienti";
             this.btn_Clienti.UseVisualStyleBackColor = true;
+            this.btn_Clienti.Click += new System.EventHandler(this.btn_Clienti_Click);
             // 
             // lst_Clienti
             // 
@@ -60,6 +61,7 @@
             this.lst_ContiCorrenti.Name = "lst_ContiCorrenti";
             this.lst_ContiCorrenti.Size = new System.Drawing.Size(173, 124);
             this.lst_ContiCorrenti.TabIndex = 2;
+            this.lst_ContiCorrenti.SelectedIndexChanged += new System.EventHandler(this.lst_ContiCorrenti_SelectedIndexChanged);
             // 
             // Form1
             // 
