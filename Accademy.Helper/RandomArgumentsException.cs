@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Accademy.Helper
+namespace Academy.Helper
 {
     public class RandomArgumentsException : Exception
     {

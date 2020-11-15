@@ -3,15 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accademy.Helper", "Accademy.Helper\Accademy.Helper.csproj", "{AD858222-8BE3-49C9-AAA1-D3166C401809}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academy.Helper", "Accademy.Helper\Academy.Helper.csproj", "{AD858222-8BE3-49C9-AAA1-D3166C401809}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accademy.TemperatureSystem", "Accademy.Test\Accademy.TemperatureSystem.csproj", "{F4EBC516-D611-4604-BC6A-3B9A895D52C3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academy.TemperatureSystem", "Accademy.Test\Academy.TemperatureSystem.csproj", "{F4EBC516-D611-4604-BC6A-3B9A895D52C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accademy.Lambda", "Accademy.Lambda\Accademy.Lambda.csproj", "{B24CF692-1687-4FB3-A2D5-E579DAABEB7A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academy.Lambda", "Accademy.Lambda\Academy.Lambda.csproj", "{B24CF692-1687-4FB3-A2D5-E579DAABEB7A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academy.DBTest", "Academy.DBTest\Academy.DBTest.csproj", "{1DCB2748-ED69-4E44-87E1-E0DDF3019F83}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academy.Esercitazione", "Academy.Esercitazione\Academy.Esercitazione.csproj", "{6B8A2F91-6A74-4163-BFC9-F49C597FD76A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academy.Console", "Academy.Console\Academy.Console.csproj", "{F4669842-2B8D-4371-932E-A14CD00432FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academy.Tris", "Academy.Tris\Academy.Tris.csproj", "{A7574B7D-9833-4924-804A-7065C91B7210}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academy.Geometry", "Academy.Geometry\Academy.Geometry.csproj", "{36C72DC1-8511-4890-89AE-B82AC1FA7696}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academy.GeometryAbstract", "Academy.GeometryAbstract\Academy.GeometryAbstract.csproj", "{8ACE6D4E-028F-4C86-B1A4-EE848B69F537}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumanResources", "HumanResources\HumanResources.csproj", "{4065B282-3F35-4837-AD67-CCC0D1F6A2ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academy.Entities", "Academy.Entities\Academy.Entities.csproj", "{C1E1ADF2-812F-4B61-945D-7657A2E0FE46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +51,30 @@ Global
 		{6B8A2F91-6A74-4163-BFC9-F49C597FD76A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B8A2F91-6A74-4163-BFC9-F49C597FD76A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B8A2F91-6A74-4163-BFC9-F49C597FD76A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4669842-2B8D-4371-932E-A14CD00432FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4669842-2B8D-4371-932E-A14CD00432FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4669842-2B8D-4371-932E-A14CD00432FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4669842-2B8D-4371-932E-A14CD00432FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7574B7D-9833-4924-804A-7065C91B7210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7574B7D-9833-4924-804A-7065C91B7210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7574B7D-9833-4924-804A-7065C91B7210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7574B7D-9833-4924-804A-7065C91B7210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36C72DC1-8511-4890-89AE-B82AC1FA7696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C72DC1-8511-4890-89AE-B82AC1FA7696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36C72DC1-8511-4890-89AE-B82AC1FA7696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36C72DC1-8511-4890-89AE-B82AC1FA7696}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ACE6D4E-028F-4C86-B1A4-EE848B69F537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ACE6D4E-028F-4C86-B1A4-EE848B69F537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ACE6D4E-028F-4C86-B1A4-EE848B69F537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ACE6D4E-028F-4C86-B1A4-EE848B69F537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4065B282-3F35-4837-AD67-CCC0D1F6A2ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4065B282-3F35-4837-AD67-CCC0D1F6A2ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4065B282-3F35-4837-AD67-CCC0D1F6A2ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4065B282-3F35-4837-AD67-CCC0D1F6A2ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1E1ADF2-812F-4B61-945D-7657A2E0FE46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1E1ADF2-812F-4B61-945D-7657A2E0FE46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1E1ADF2-812F-4B61-945D-7657A2E0FE46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1E1ADF2-812F-4B61-945D-7657A2E0FE46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F4EBC516-D611-4604-BC6A-3B9A895D52C3}</ProjectGuid>
+    <ProjectGuid>{A7574B7D-9833-4924-804A-7065C91B7210}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Accademy.Test</RootNamespace>
-    <AssemblyName>Accademy.Test</AssemblyName>
+    <RootNamespace>Academy.Tris</RootNamespace>
+    <AssemblyName>Academy.Tris</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,18 +45,14 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Subscriber1.cs" />
-    <Compile Include="Subscriber2.cs" />
-    <Compile Include="TemperatureEventArgs.cs" />
-    <Compile Include="Termometro.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Accademy.Helper\Accademy.Helper.csproj">
+    <ProjectReference Include="..\Accademy.Helper\Academy.Helper.csproj">
       <Project>{ad858222-8be3-49c9-aaa1-d3166c401809}</Project>
-      <Name>Accademy.Helper</Name>
+      <Name>Academy.Helper</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

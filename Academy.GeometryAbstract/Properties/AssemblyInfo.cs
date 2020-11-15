@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Academy.Lambda")]
+[assembly: AssemblyTitle("Academy.GeometryAbstract")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Academy.Lambda")]
+[assembly: AssemblyProduct("Academy.GeometryAbstract")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("b24cf692-1687-4fb3-a2d5-e579daabeb7a")]
+[assembly: Guid("8ace6d4e-028f-4c86-b1a4-ee848b69f537")]
 
 // Version information for an assembly consists of the following four values:
 //

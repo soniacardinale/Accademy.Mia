@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Accademy.Helper
+namespace Academy.Helper
 {
     public class RandomHelper
     {
@@ -45,7 +45,7 @@ namespace Accademy.Helper
         /// </summary>
         /// <param name="min">min range value</param>
         /// <param name="max">max range value</param>
-        /// <exception cref="Accademy.Helper.RandomArgumentsException">Thrown when min value is greater then max value</exception>
+        /// <exception cref="Academy.Helper.RandomArgumentsException">Thrown when min value is greater then max value</exception>
         /// <returns>random int in a range</returns>
         public static int GetRandomInt(int min, int max)
         {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Accademy.TemperatureSystem
+namespace Academy.TemperatureSystem
 {
     public class TemperatureEventArgs
     {

@@ -1,12 +1,12 @@
-﻿using Accademy.Helper;
-using Accademy.TemperatureSystem;
+﻿using Academy.Helper;
+using Academy.TemperatureSystem;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Accademy.TemperatureSystem
+namespace Academy.TemperatureSystem
 {
     class Program
     {

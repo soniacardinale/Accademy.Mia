@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Accademy.Lambda
+namespace Academy.Lambda   //funzioni Lambda
 {
     class Program
     {
