@@ -17,17 +17,17 @@ namespace Academy.Console
         static void Main(string[] args)
         {
             ///TestWebSite(args[0]);
-            TestRecursion();
+            //TestRecursion();
             //TestDictionary();
             //TestSplit();
-            //TestReadFile();
+            TestReadFile();
             //TestHR();
             //TestGeometry();
             //TestGeometryAbstract();
             //TestLoops();
             //try
             //{
-            //    TestRandom();
+               //TestRandom();
             //}
             //catch (RandomArgumentsException excp)
             //{
@@ -39,6 +39,8 @@ namespace Academy.Console
             //TestUni_001();
             //TestUni_002();
             // Test_Tris();
+
+            System.Console.ReadLine();
         }
 
         private static void TestRecursion()
@@ -369,12 +371,12 @@ namespace Academy.Console
         }
         private static void TestRandom()
         {
-            String dir = @"D:\temp";
+            String dir = @"C:\Users\sonia.cardinale\Desktop\Esercitazioni";  //metto il path
             String filename = "Academy_random.txt";
             String path = System.IO.Path.Combine(dir, filename);
 
             int min = 1001;
-            int max = 1000;
+            int max = 500;
 
             System.IO.StreamWriter Academy_randomFile = new System.IO.StreamWriter(path);
             for (int i = 0; i < 50; i++)
@@ -562,10 +564,10 @@ namespace Academy.Console
             char b = 'b'; // ascii code 0x62
             char c = 'c'; // ascii code 0x63
 
-            String[] resultArray = s.Split(chararray);
+            String[] resultArray = s.Split(chararray); //ho splittato la mia stringa rispetto a \t
 
-            string temperature = resultArray[0];
-            string pressure = resultArray[1];
+            string temperature = resultArray[0]; //la prima componente l'ho definita come temperatura
+            string pressure = resultArray[1]; //la seconda come pressione
 
             float temp_float = float.Parse(temperature, CultureInfo.InvariantCulture);
             float press_float = float.Parse(pressure, CultureInfo.InvariantCulture);
@@ -575,7 +577,7 @@ namespace Academy.Console
         }
         private static void TestReadFile()
         {
-            String dir = @"D:\temp";
+            String dir = @"C:\Users\sonia.cardinale\Desktop\Esercitazioni";
             String filename = "pressione.txt";
             String path = dir + @"\" + filename;
 
